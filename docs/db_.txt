@@ -1,0 +1,19 @@
+ALTER TABLE `amc_details` ADD `is_deleted` SMALLINT(1) NOT NULL DEFAULT '1' ;
+
+ALTER TABLE `amc_notes` ADD `is_deleted` SMALLINT(5) NOT NULL DEFAULT '1' ;
+
+ALTER TABLE `products` ADD `is_deleted` SMALLINT(5) NOT NULL  DEFAULT '1';
+
+ALTER TABLE `user_notes` ADD `is_deleted` SMALLINT(5) NOT NULL DEFAULT '1' ;
+
+ALTER TABLE `lincense` ADD `is_deleted` SMALLINT(5) NOT NULL DEFAULT '1' ;
+
+ALTER TABLE `document` ADD `is_deleted` SMALLINT(5) NOT NULL DEFAULT '1' ;
+
+
+ALTER TABLE `users` ADD `security_notification` INT(2) NULL DEFAULT '0' AFTER `is_invited`, ADD `login_notification` INT(2) NULL DEFAULT '0' AFTER `security_notification`;
+
+added user_account table in warranties database
+
+
+

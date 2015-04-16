@@ -1,0 +1,218 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+        border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+        border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+        border-radius: 0px 0px 4px 4px !important;
+}
+*/
+
+/* code by mehul as on 10315 */
+.error{
+    color: #ffffff; 
+}
+.success_msg{
+    color: #ffffff; 
+    background-color:#009966;
+}
+.downloadcsv-class{
+    clear: both;
+    width: 200px;
+}
+.tab-content{
+    float: left;
+}
+.upload-button{
+    margin-top: 15px;
+}
+.warrenty-data-filter{
+    clear: both;
+    height: 50px;
+}
+.alignleft{
+    float: left;
+}
+.alignright{
+    float: right;
+}
+.my-drop-zone { border: dotted 3px lightgray; }
+.nv-file-over { border: dotted 3px red; } /* Default class applied to drop zones on over */
+.another-file-over-class { border: dotted 3px green; }
+.warrenty-form-left{
+    margin: 0 auto;
+    width: 50%;
+    float: left;
+    clear: right;
+    /*border : 1px solid #009966;*/
+}
+.warrenty-form-right{
+    margin: 0 auto;
+    width: 50%;
+    float: left;
+    clear: right;
+    /*border : 1px solid #009966;*/
+}
+.upload-image{
+    display: non;
+}
+
+#AddLicense .modal-dialog{
+    width: 800px;
+    min-height: 700px;
+}
+#AddLicense .form-body{
+    min-height:500px;
+}
+.file-upload{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.custom-error {
+    color:#FF0000;
+}
+[type='submit'] {
+
+    padding:10px;
+    vertical-align:-1px;
+    width:150px;
+}
+.gridStyle {
+    border: 1px solid rgb(212,212,212);
+    height: 220px;
+}
+
+#ViewcomplexDialog .modal-dialog{
+    width: 800px;
+    min-height: 700px;
+}
+#EditLicense .modal-dialog{
+    width: 800px;
+    min-height: 800px;
+}
+#EditLicense .modal-dialog .portlet .form-body {
+    width: 800px;
+    min-height: 500px;
+}
+#EditRenewalLicense .modal-dialog .portlet .form-body {
+    /*    width: 800px;*/
+    min-height: 250px;
+}
+#ViewInviteUser .modal-dialog {
+        width: 500px;
+    min-height: 250px;
+}
+.cetegorydiv{
+   
+    height: 120px;
+}
+.greenstatus{
+    border-left: 8px solid #009966;
+    padding: 2px;
+}
+.yellowstatus {
+    border-left: 8px solid #F7CA18;
+    padding: 2px;
+}
+.redstatus {
+    border-left: 8px solid #E43F00;
+    padding: 2px;
+}
+.fileinput-preview img{
+    border: 2px solid #ccc;
+    border-radius: 50% !important;
+}
+.fileinput-new img{
+    border: 2px solid #ccc;
+    border-radius: 50% !important;
+}
+.default-profile-image{
+    background-color: #3b9c96;
+    border: 0 none;
+    border-radius: 15px !important;
+    color: #fff;
+    font-size: 77px;
+    font-weight: lighter;
+    height: 110px;
+    padding: 0 21px;
+    width: 110px;
+}
+.default-profile-image-small{
+    background-color: #43c2cd;
+    border: 0 none;
+    border-radius: 5px !important;
+    clear: right;
+    color: #fff;
+    font-size: 30px;
+    font-weight: lighter;
+    height: 41px;
+	line-height:41px; text-align:center;
+    width: 41px;
+
+}
+.default-profile-image-medium{
+    background-color: #B8B8B8;
+    border: 0 none;
+    border-radius: 5px !important;
+    clear: right;
+    color: #fff;
+    font-size: 35px;
+    font-weight: normal;
+    height: 50px;
+    /*padding: 0 15px;*/
+    text-align: center;
+    width: 50px;
+    line-height: 38px;
+
+}
+.default-profile-image-medium-superadmin{
+    background-color: #4DC9D3;
+    border: 0 none;
+    border-radius: 5px !important;
+    clear: right;
+    color: #fff;
+    font-size: 35px;
+    font-weight: normal;
+    height: 50px;
+    /*padding: 0 15px;*/
+    text-align: center;
+    width: 50px;
+    line-height: 38px;
+
+}
+.device-circle{
+    background-color: #047abf;
+    color: #fff;
+    font-size: 9px;
+    height: 60px;
+    padding: 13px;
+    text-align: center;
+    width: 60px;
+    border: 2px solid;
+    border-radius: 50% !important;
+}
+.loadingtillresponse{
+    background-image: url("../img/loading-spinner-blue.gif") !important;
+    height: 22px;
+    width: 22px;
+}
+.warrentiesDate{
+    background-color: #64dae4 !important;
+}
